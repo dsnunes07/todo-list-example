@@ -8,12 +8,14 @@
       v-model="title"
       label="Título"
       :rules="titleRules"
+      data-test="title-input"
       required
     ></v-text-field>
 
     <v-text-field
       v-model="description"
       label="Descrição"
+      data-test="description-input"
       :rules="descriptionRules"
       required
     ></v-text-field>
